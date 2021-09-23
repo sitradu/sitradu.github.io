@@ -2,9 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://www.sitradu.com/2021/09/acuerdos-salariales-2021/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.sitradu.com/tags/acuerdos/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.sitradu.com/acuerdos-salariales-2021/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.sitradu.com/categories/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.sitradu.com/tags/ingresos/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.sitradu.com/tags/politica/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://www.sitradu.com/posts/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.sitradu.com/categories/salarios/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://www.sitradu.com/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://www.sitradu.com/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.sitradu.com/offline/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.sitradu.com/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>http://www.sitradu.com/tags/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://www.sitradu.com/tags/afiliados/</loc><lastmod>2021-09-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://www.sitradu.com/afiliate-a-sitradu/</loc><lastmod>2021-09-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://www.sitradu.com/categories/gremiales/</loc><lastmod>2021-09-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://www.sitradu.com/offline/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
