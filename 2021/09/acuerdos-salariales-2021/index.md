@@ -52,11 +52,16 @@ fantasioso teniendo en cuenta que nuestros salarios ya vienen atrasados desde
 antes y el aumento anualizado (la suma de salarios de esos 12 meses respecto de
 los 12 meses anteriores, es mucho menos que el porcentaje señalado).
 
+Si se tienen en cuenta los porcentajes de todo este 2021, gana ampliamente la
+carrera la inflación, que se estima superando el 50%, ya que el salario que
+cobraremos en diciembre estará apenas un 31% por encima del de enero.
+
 Por otra parte, si en vez de valores porcentuales tuviésemos en cuenta los
 valores absolutos, y comparásemos los salarios de bolsillo con parámetros como
 la canasta básica de alimentos o la canasta total, veríamos cómo distintas
 categorías docentes (en términos de jerarquía y dedicación) se encuentran en
-muchos casos batallando con la indigencia y la pobreza.
-
-
+muchos casos batallando con la indigencia y la pobreza. Esta comparación se
+empeora por la repetida firma de acuerdos que año a año alargan más la distancia
+con la media canasta familiar para el cargo testigo, erosionándose
+recurrentemente el poder de compra de nuestros salarios.
 
