@@ -2,7 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://www.sitradu.com/tags/acuerdos/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://www.sitradu.com/2021/09/acuerdos-salariales-2021/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://www.sitradu.com/categories/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://www.sitradu.com/tags/ingresos/</loc><lastmod>2021-09-20T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
@@ -14,22 +13,39 @@
             <loc>http://www.sitradu.com/tags/afiliados/</loc><lastmod>2021-09-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>http://www.sitradu.com/2021/09/afiliate-a-sitradu/</loc><lastmod>2021-09-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>http://www.sitradu.com/categories/gremiales/</loc><lastmod>2021-09-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>http://www.sitradu.com/categories/luchas/</loc><lastmod>2021-05-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/2021/05/repudiamos-persecuci%C3%B3n-a-estudiantes/</loc><lastmod>2021-05-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/solidaridad/</loc><lastmod>2021-05-11T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/2021/03/conflicto-por-tala-de-%C3%A1rboles-en-bv-racedo/</loc><lastmod>2021-03-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/conflictos/</loc><lastmod>2021-03-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/medio-ambiente/</loc><lastmod>2021-03-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/sociedad/</loc><lastmod>2021-03-23T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/2021/03/asamblea-de-sitradu-frente-al-congreso-de-conaduh/</loc><lastmod>2021-03-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/asambleas/</loc><lastmod>2021-03-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/categories/asambleas/</loc><lastmod>2021-03-16T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/2021/03/hartas/</loc><lastmod>2021-03-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/mujeres/</loc><lastmod>2021-03-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/categories/politica/</loc><lastmod>2021-03-08T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/2021/03/resultado-de-la-asamblea-y-reuni%C3%B3n-con-el-rector/</loc><lastmod>2021-03-08T09:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/uner/</loc><lastmod>2021-03-08T09:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/pandemia/</loc><lastmod>2021-02-15T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/2021/02/pandemia-y-reinicio-de-actividades-2021/</loc><lastmod>2021-02-15T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/categories/sindicato/</loc><lastmod>2021-02-15T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/2021/01/comisi%C3%B3n-directiva/</loc><lastmod>2021-01-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/gremiales/</loc><lastmod>2021-01-01T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/2020/11/asamblea-de-formalizaci%C3%B3n/</loc><lastmod>2020-11-24T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/declaraciones/</loc><lastmod>2018-09-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/documentos/</loc><lastmod>2018-09-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/tags/facultades/</loc><lastmod>2018-09-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.sitradu.com/categories/luchas/</loc><lastmod>2018-09-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/2018/09/solicitud-al-consejo-directivo-fcedu-uner/</loc><lastmod>2018-09-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.sitradu.com/tags/solicitudes/</loc><lastmod>2018-09-30T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/tags/an%C3%A1lisis/</loc><lastmod>2018-09-10T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/tags/plan-de-lucha/</loc><lastmod>2018-09-10T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/tags/salarios/</loc><lastmod>2018-09-10T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/2018/09/por-qu%C3%A9-continuamos-en-la-lucha/</loc><lastmod>2018-09-10T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/tags/conadu-hist%C3%B3rica/</loc><lastmod>2018-09-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/2018/09/universitaries-renuevan-el-reclamo-por-presupuesto-y-rechazan-la-oferta-salarial/</loc><lastmod>2018-09-07T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.sitradu.com/tags/asamblea/</loc><lastmod>2018-09-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.sitradu.com/tags/declaraci%C3%B3n/</loc><lastmod>2018-09-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/2018/09/resoluci%C3%B3n-de-la-asamblea/</loc><lastmod>2018-09-06T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/2018/09/an%C3%A1lisis-de-la-propuesta-salarial-del-gobierno-nacional/</loc><lastmod>2018-09-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.sitradu.com/tags/documentos/</loc><lastmod>2018-09-03T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.sitradu.com/tags/declaraciones/</loc><lastmod>2018-08-14T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/2018/08/el-gobierno-elige-ahorrarse-nuestros-salarios-para-cumplir-con-el-fmi/</loc><lastmod>2018-08-14T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>http://www.sitradu.com/tags/movilizaci%C3%B3n/</loc><lastmod>2018-08-14T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>http://www.sitradu.com/tags/movilizaciones/</loc><lastmod>2018-08-14T10:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>http://www.sitradu.com/offline/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
