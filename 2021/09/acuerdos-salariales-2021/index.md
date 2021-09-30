@@ -50,7 +50,7 @@ El acuerdo salarial resultante se promociona como un aumento del 47% en el año
 entre marzo de 2021 y febrero de 2022, pero este número es tan asombroso como
 fantasioso teniendo en cuenta que nuestros salarios ya vienen atrasados desde
 antes y el aumento anualizado (la suma de salarios de esos 12 meses respecto de
-los 12 meses anteriores, es mucho menos que el porcentaje señalado).
+los 12 meses anteriores) es mucho menos que el porcentaje señalado.
 
 Si se tienen en cuenta los porcentajes de todo este 2021, gana ampliamente la
 carrera la inflación, que se estima superando el 50%, ya que el salario que

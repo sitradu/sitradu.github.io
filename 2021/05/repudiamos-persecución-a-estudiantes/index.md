@@ -26,4 +26,7 @@ Paraná, 11 de mayo de 2021
 
 [Este es el link para adherir a la absolucion](https://docs.google.com/forms/d/e/1FAIpQLSeFo6VT2MQrWcw0MlpPIEwWLx0cYwtU_sYzAb9BuM3PqqydKQ/viewform)
 
+{{< figure src="https://live.staticflickr.com/65535/51516699575_d70fb592df_b.jpg" title="" width=75% >}}
+
+
 
