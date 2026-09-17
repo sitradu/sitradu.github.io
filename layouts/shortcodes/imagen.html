@@ -1,0 +1,10 @@
+<figure class="post-image" style="width: {{ .Get "width" | default "100%" }};">
+  <img
+    src="{{ .Get "src" }}"
+    alt="{{ .Get "alt" | default "" }}"
+    loading="lazy"
+  >
+  {{ with .Get "caption" }}
+    <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>

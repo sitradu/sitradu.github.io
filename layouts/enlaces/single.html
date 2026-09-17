@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url={{ .Params.enlace_url }}">
+  <link rel="canonical" href="{{ .Params.enlace_url }}">
+  <title>Redirigiendo… — {{ .Title }}</title>
+</head>
+<body>
+  <p>Redirigiendo a la nota original{{ with .Params.fuente }} en {{ . }}{{ end }}…</p>
+  <p><a href="{{ .Params.enlace_url }}">{{ .Params.enlace_url }}</a></p>
+</body>
+</html>
