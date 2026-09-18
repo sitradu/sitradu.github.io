@@ -4,7 +4,8 @@ date: 2021-03-08T09:00:00
 categories: [asambleas]
 tags: [uner]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/65535/51516660510_7eb6278d74_o.jpg
+cover:
+  image: https://live.staticflickr.com/65535/51516660510_7eb6278d74_o.jpg
 toc: false
 ---
 

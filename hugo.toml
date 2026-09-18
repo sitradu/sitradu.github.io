@@ -1,6 +1,7 @@
 baseURL = "https://sitradu.github.io/"
-languageCode = "es-ar"
-title = "Sindicato Docente — FIUNER"
+locale = "es-AR"
+title = "SiTraDU — Conadu Histórica"
+theme = "PaperMod"
 
 # Paginación de las listas (noticias + enlaces combinados)
 [pagination]
@@ -8,20 +9,27 @@ title = "Sindicato Docente — FIUNER"
 
 [params]
   description = "Sitio informativo del sindicato docente"
+  env = "production"
+  defaultTheme = "auto"
+  disableSpecial1stPost = true
+  mainSections = ["noticias", "enlaces"]
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
 
-[menu]
-  [[menu.main]]
-    name = "Inicio"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Noticias"
-    url = "/noticias/"
-    weight = 2
-  [[menu.main]]
-    name = "Enlaces"
-    url = "/enlaces/"
-    weight = 3
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
 
-[markup.goldmark.renderer]
-  unsafe = true
+[taxonomies]
+  category = "categories"
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Categorías"
+  url = "/categories/"
+  weight = 10
+

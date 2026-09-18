@@ -4,7 +4,8 @@ date: 2018-09-30T10:00:00
 categories: [luchas]
 tags: [facultades, documentos, declaraciones]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/1871/43380532045_45c98acaac_b.jpg
+cover:
+  image: https://live.staticflickr.com/1871/43380532045_45c98acaac_b.jpg
 toc: false
 ---
 

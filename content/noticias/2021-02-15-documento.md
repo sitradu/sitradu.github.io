@@ -4,7 +4,8 @@ date: 2021-02-15T10:00:00
 categories: [gremiales]
 tags: [pandemia, reflexiones]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/65535/51515768668_8592eee350_b.jpg
+cover:
+  image: https://live.staticflickr.com/65535/51515768668_8592eee350_b.jpg
 toc: false
 ---
 

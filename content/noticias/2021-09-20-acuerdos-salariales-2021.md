@@ -4,7 +4,8 @@ date: 2021-09-20T10:00:00
 categories: [salarios]
 tags: [politica, ingresos]
 author: SiTraDU
-featuredImagePreview: https://cdn.pixabay.com/photo/2020/05/30/09/53/crisis-5238323_1280.jpg 
+cover:
+  image: https://cdn.pixabay.com/photo/2020/05/30/09/53/crisis-5238323_1280.jpg 
 toc: false
 ---
 

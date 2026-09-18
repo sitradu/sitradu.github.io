@@ -4,7 +4,8 @@ date: 2018-09-06T10:00:00
 categories: [asambleas]
 tags: [declaraciones]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/1870/43380150205_3695b954af_b.jpg
+cover:
+  image: https://live.staticflickr.com/1870/43380150205_3695b954af_b.jpg
 toc: false
 ---
 

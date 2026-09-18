@@ -4,8 +4,9 @@ date: 2018-08-14T10:00:00
 categories: [luchas]
 tags: [movilizaciones, declaraciones]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/933/42203423520_5a05b97047_b.jpg
-toc: false
+cover:
+   image: https://live.staticflickr.com/933/42203423520_5a05b97047_b.jpg
+toc: flse
 ---
 
 Luego de meses de un silencio irresponsable, el gobierno convoca a una mesa de

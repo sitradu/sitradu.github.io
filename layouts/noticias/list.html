@@ -1,8 +1,0 @@
-{{ define "main" }}
-<h1 class="page-title">Noticias</h1>
-<div class="item-list">
-  {{ range .Pages.ByDate.Reverse }}
-    {{ partial "item-noticia.html" . }}
-  {{ end }}
-</div>
-{{ end }}

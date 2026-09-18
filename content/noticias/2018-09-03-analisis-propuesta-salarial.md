@@ -4,8 +4,10 @@ date: 2018-09-03T10:00:00
 categories: [luchas]
 tags: [documentos, salarios, ingresos, análisis]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/65535/51511713687_b70d004961_b.jpg
+cover:
+ image: https://live.staticflickr.com/65535/51511713687_b70d004961_b.jpg
 toc: false
+
 ---
 
 1. La propuesta sostiene un porcentaje de incremento al básico del 15%. Esta

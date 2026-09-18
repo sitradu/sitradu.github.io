@@ -4,7 +4,8 @@ date: 2021-09-01T10:00:00
 categories: [gremiales]
 tags: [afiliados]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/65535/51507824820_1540113146_b.jpg
+cover:
+  image: https://live.staticflickr.com/65535/51507824820_1540113146_b.jpg
 toc: false
 ---
 

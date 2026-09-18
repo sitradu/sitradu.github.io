@@ -4,7 +4,8 @@ date: 2021-05-11T10:00:00
 categories: [luchas]
 tags: [solidaridad]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/65535/51516699575_d70fb592df_b.jpg
+cover:
+  image: https://live.staticflickr.com/65535/51516699575_d70fb592df_b.jpg
 toc: false
 ---
 

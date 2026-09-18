@@ -4,7 +4,8 @@ date: 2018-09-10T10:00:00
 categories: [luchas]
 tags: [análisis, salarios, plan-de-lucha]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/65535/51511789312_1520fec406_b.jpg
+cover:
+  image: https://live.staticflickr.com/65535/51511789312_1520fec406_b.jpg
 toc: false
 ---
 

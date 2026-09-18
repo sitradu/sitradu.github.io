@@ -1,6 +1,0 @@
-<article class="item item-noticia">
-  <span class="item-tag">Noticia</span>
-  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-  <p class="item-date">{{ .Date.Format "02/01/2006" }}</p>
-  {{ with .Params.resumen }}<p class="item-resumen">{{ . }}</p>{{ end }}
-</article>

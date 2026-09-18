@@ -1,6 +1,0 @@
-<article class="item item-enlace">
-  <span class="item-tag item-tag-enlace">Enlace externo{{ with .Params.fuente }} · {{ . }}{{ end }}</span>
-  <h2><a href="{{ .Params.enlace_url }}" target="_blank" rel="noopener noreferrer">{{ .Title }} ↗</a></h2>
-  <p class="item-date">{{ .Date.Format "02/01/2006" }}</p>
-  {{ with .Params.resumen }}<p class="item-resumen">{{ . }}</p>{{ end }}
-</article>

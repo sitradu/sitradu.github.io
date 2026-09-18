@@ -4,7 +4,8 @@ date: 2020-11-24T10:00:00
 categories: [gremiales]
 tags: [asambleas]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/65535/51516064214_e2133a3a1b_o.jpg
+cover:
+  image: https://live.staticflickr.com/65535/51516064214_e2133a3a1b_o.jpg
 toc: false
 ---
 

@@ -1,0 +1,64 @@
+/* Entradas compactas en la portada */
+.post-entry {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    grid-template-areas:
+        "header cover"
+        "content cover"
+        "footer cover";
+    column-gap: 24px;
+    align-items: center;
+}
+
+.post-entry .entry-header {
+    grid-area: header;
+}
+
+.post-entry .entry-content {
+    grid-area: content;
+}
+
+.post-entry .entry-footer {
+    grid-area: footer;
+}
+
+.post-entry .entry-cover {
+    grid-area: cover;
+    margin: 0;
+}
+
+.post-entry .entry-cover img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* En pantallas pequeñas volvemos al diseño normal de PaperMod */
+@media (max-width: 700px) {
+    .post-entry {
+        display: block;
+    }
+
+    .post-entry .entry-cover {
+        margin-bottom: var(--gap);
+    }
+
+    .post-entry .entry-cover img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.external-source {
+    font-size: 0.90rem;
+    color: var(--secondary);
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.external-entry {
+    background: var(--entry);
+    border-left: 4px solid var(--secondary);
+}
+

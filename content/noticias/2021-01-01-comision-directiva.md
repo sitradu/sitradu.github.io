@@ -4,7 +4,8 @@ date: 2021-01-01T10:00:00
 categories: [gremiales]
 tags: [gremiales]
 author: SiTraDU
-featuredImagePreview: https://live.staticflickr.com/1818/42284476640_8b1496ff0e.jpg
+cover:
+  image: https://live.staticflickr.com/1818/42284476640_8b1496ff0e.jpg
 toc: false
 ---
 
