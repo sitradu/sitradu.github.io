@@ -30,7 +30,10 @@ específica de áreas como Género y Jubiladxs, las cuales cobijarán con especi
 atención la defensa de los derechos asociados y las políticas activas contra
 todo tipo de discriminación.
 
-{{< figure src="https://live.staticflickr.com/65535/51516064214_e2133a3a1b_o.jpg" title="Imagen parcial de la Asamblea Virtual" width=50% >}}
+{{< imagen
+	src="https://live.staticflickr.com/65535/51516064214_e2133a3a1b_o.jpg" 
+	title="Imagen parcial de la Asamblea Virtual" 
+	>}}
 
 El área de acción será el de las Universidades Públicas del territorio
 entrerriano, lo que abre la posibilidad de afiliación a los docentes de UADER,

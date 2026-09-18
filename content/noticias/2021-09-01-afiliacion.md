@@ -38,6 +38,6 @@ Afiliación](https://docs.google.com/document/d/1mta7IfzW_AoKzOEOSsZ7dKjMyQs5rhV
 y acercárselo a uno de nuestros referentes en tu facultad, o escribinos a
 sitradu@gmail.com. ¡Te esperamos!
 
-{{< figure src="https://live.staticflickr.com/65535/51507824820_1540113146_b.jpg" width=75% >}}
-
-
+{{< imagen
+	src="https://live.staticflickr.com/65535/51507824820_1540113146_b.jpg" 
+	>}}

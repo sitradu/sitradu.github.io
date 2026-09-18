@@ -79,6 +79,8 @@ ratificamos nuestro plan de lucha nacional y exigimos:
 * presupuesto genuino acorde a las necesidades de funcionamiento y desarrollo de
   una educación universitaria pública, gratuita y de calidad.
 
-{{< figure src="https://live.staticflickr.com/65535/51511789312_1520fec406_b.jpg" title="" width=75% >}}
+{{< imagen
+	src="https://live.staticflickr.com/65535/51511789312_1520fec406_b.jpg" 
+	>}}
 
 

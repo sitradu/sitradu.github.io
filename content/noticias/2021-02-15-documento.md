@@ -33,7 +33,9 @@ condiciones de aportar a un pensamiento colectivo a la necesaria deliberación
 para imaginar estrategias y actuar **hoy** en defensa de nuestra universidad
 pública.
 
-{{< figure src="https://live.staticflickr.com/65535/51515768668_8592eee350_b.jpg" title="" width=70% >}}
+{{< imagen
+	src="https://live.staticflickr.com/65535/51515768668_8592eee350_b.jpg" 
+	>}}
 
 La universidad pública es motivo de nuestra preocupación porque es nuestro
 trabajo, el que nos involucra con otres en esa aventura inquietante,

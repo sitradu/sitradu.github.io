@@ -51,6 +51,9 @@ bruto agosto: 99.199,88
 Reemplazar espacios con | usando query-replace.
 Regexp para reemplazar la coma y las décimas: ,[0-9][0-9]
 
-{{< figure src="https://scontent.fsfn4-1.fna.fbcdn.net/v/t39.30808-6/240722500_2983101461946194_1296274830251134855_n.jpg" title="Evolución del salario" width=50% >}}
-Grilla Salarial
+{{< imagen
+	src="https://scontent.fsfn4-1.fna.fbcdn.net/v/t39.30808-6/240722500_2983101461946194_1296274830251134855_n.jpg" 
+	title="Evolución del salario"
+	>}}
+
 

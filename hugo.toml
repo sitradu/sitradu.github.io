@@ -2,12 +2,6 @@ baseURL = "https://sitradu.github.io/"
 languageCode = "es-ar"
 title = "Sindicato Docente — FIUNER"
 
-# Taxonomías por defecto de Hugo (categories/tags) desactivadas: no se usan
-# en este sitio. El front matter viejo que las incluya se ignora sin error.
-# (Tiene que ir antes de cualquier sección [tabla]; si no, TOML la
-# interpreta como parte de la última tabla abierta, no de la raíz.)
-disableKinds = ["taxonomy", "term"]
-
 # Paginación de las listas (noticias + enlaces combinados)
 [pagination]
   pagerSize = 15

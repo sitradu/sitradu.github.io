@@ -49,6 +49,8 @@ para contribuir a garantizar el acceso y permanencia de sus estudiantes:
 
 *Hagamos que el esfuerzo realizado haya valido la pena\...*
 
-{{< figure src="https://live.staticflickr.com/1871/43380532045_45c98acaac_b.jpg" title="" width=50% >}}
+{{< imagen
+	src="https://live.staticflickr.com/1871/43380532045_45c98acaac_b.jpg" 
+	>}}
 
 

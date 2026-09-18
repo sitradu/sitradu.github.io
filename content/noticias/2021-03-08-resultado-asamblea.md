@@ -29,7 +29,9 @@ escuchado nada sobre refuerzos de cargos y designaciones para enfrentar este
 doble trabajo, ni está claro qué pasará con quienes, sin pertenecer a los grupos
 de riesgo, tienen a su cargo el cuidado de familiares que sí lo están.
 
-{{< figure src="https://live.staticflickr.com/65535/51516660510_7eb6278d74_o.jpg" title="" width=70% >}}
+{{< imagen
+	src="https://live.staticflickr.com/65535/51516660510_7eb6278d74_o.jpg" 
+	>}}
 
 El inicio de clases es inminente y las condiciones son parcialmente inciertas,
 lo que implica un nivel de incertidumbre e improvisación que dificulta la

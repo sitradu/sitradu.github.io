@@ -40,17 +40,32 @@ y Gratuita.
 
 ## Fotos de la Asamblea
 
-{{< figure src="https://live.staticflickr.com/1779/44080525771_caf51f9570_b.jpg" title="" width=75% >}}
+{{< imagen
+	src="https://live.staticflickr.com/1779/44080525771_caf51f9570_b.jpg"
+	>}}
 
-{{< figure src="https://live.staticflickr.com/1839/43174161555_96b5416a70_b.jpg" title="" width=75% >}}
+{{< imagen
+	src="https://live.staticflickr.com/1839/43174161555_96b5416a70_b.jpg"
+	>}}
 
-{{< figure src="https://live.staticflickr.com/1817/44080522171_51dc7e6892_b.jpg" title="" width=75% >}}
+{{< imagen
+	src="https://live.staticflickr.com/1817/44080522171_51dc7e6892_b.jpg"
+	>}}
 
-{{< figure src="https://live.staticflickr.com/1779/44032109282_3f4caf9d5f_b.jpg" title="" width=75% >}}
+{{< imagen
+	src="https://live.staticflickr.com/1779/44032109282_3f4caf9d5f_b.jpg"
+	>}}
 
-{{< figure src="https://live.staticflickr.com/1832/43174161175_be6ae95977_b.jpg" title="" width=75% >}}
+{{< imagen
+	src="https://live.staticflickr.com/1832/43174161175_be6ae95977_b.jpg" 
+	>}}
 
-{{< figure src="https://live.staticflickr.com/1797/44080522451_5e326952fe_b.jpg" title="" width=75% >}}
+{{< imagen
+	src="https://live.staticflickr.com/1797/44080522451_5e326952fe_b.jpg" 
+	>}}
+
+
+
 
 
 
