@@ -35,7 +35,23 @@
 }
 
 /* En pantallas pequeñas volvemos al diseño normal de PaperMod */
-@media (max-width: 700px) {
+@media (max-width: 850px) {
+
+    .home-layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-sidebar {
+	order: -1;
+        position: static;
+        width: 100%;
+    }
+
+    .home-feed {
+        width: 100%;
+    }
+
     .post-entry {
         display: block;
     }
@@ -62,3 +78,114 @@
     border-left: 4px solid var(--secondary);
 }
 
+/* --------------------------------------------------
+   Portada: noticias + barra lateral
+   -------------------------------------------------- */
+
+.home-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 32px;
+    align-items: start;
+}
+
+.home-feed {
+    min-width: 0;
+}
+
+.home-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: 90px;
+}
+
+body:has(.home-layout) .main {
+    max-width: 1100px;
+}
+
+.sidebar-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+}
+
+.sidebar-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.15rem;
+}
+
+.sidebar-card p {
+    margin: 0 0 16px;
+    color: var(--secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.sidebar-button {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------
+   Presentación de la portada
+   -------------------------------------------------- */
+
+.home-info {
+    text-align: center;
+}
+
+.home-info-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.home-logo {
+    display: block;
+    width: auto;
+    max-width: 300px;
+    max-height: auto;
+}
+
+/* Por defecto: logo para tema claro */
+.home-logo-dark {
+    display: none;
+}
+
+/* Tema oscuro */
+html[data-theme="dark"] .home-logo-light {
+    display: none;
+}
+
+html[data-theme="dark"] .home-logo-dark {
+    display: block;
+}
+
+.home-info .entry-header h1 {
+    font-size: 2.2rem;
+    line-height: 1.15;
+}
+
+.home-info .entry-content {
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 1.3;
+}
+
+.home-info .social-icons {
+    text-align: center;
+}
+
+.home-info .entry-footer::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: 14px auto 0;
+    background: #e85b61;
+    border-radius: 2px;
+}

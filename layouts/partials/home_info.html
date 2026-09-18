@@ -1,0 +1,31 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+
+    <div class="home-info-image">
+        <img
+            class="home-logo home-logo-light"
+            src="{{ .ImageLight | relURL }}"
+            alt="SiTraDU">
+
+        <img
+            class="home-logo home-logo-dark"
+            src="{{ .ImageDark | relURL }}"
+            alt="SiTraDU">
+    </div>
+
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+
+    <div class="entry-content md-content">
+        {{ $opts := dict "display" "block" }}
+        {{ .Content | $.Page.RenderString $opts }}
+    </div>
+
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+
+</article>
+{{- end -}}
+

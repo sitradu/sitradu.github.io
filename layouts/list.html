@@ -51,6 +51,11 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
+{{- if .IsHome }}
+<div class="home-layout">
+  <div class="home-feed">
+{{- end }}
+
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
@@ -112,6 +117,14 @@
    href="{{ $page.Permalink }}"></a>
 {{- end }}
 </article>
+{{- end }}
+
+{{- if .IsHome }}
+  </div>
+
+  {{- partial "home-sidebar.html" . }}
+
+</div>
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
