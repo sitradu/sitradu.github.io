@@ -13,13 +13,16 @@ theme = "PaperMod"
   env = "production"
   defaultTheme = "auto"
   disableSpecial1stPost = true
-  mainSections = ["noticias", "enlaces"]
+  mainSections = ["publicaciones"]
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
 
+[permalinks]
+  paginas = "/:slug/"
+  
 [params.cover]
   hidden = false
   hiddenInList = false

@@ -13,7 +13,7 @@
   {{- range $pagesByYear }}
   {{- $year := .Key }}
 
-  <a class="archive-year" href="{{ printf "/archivo/%s/" $year | relURL }}">
+  <a class="archive-year" href="{{ printf "/publicaciones/%s/" $year | relURL }}">
     <span class="archive-year-title">{{ $year }}</span>
 
     <span class="archive-count">
