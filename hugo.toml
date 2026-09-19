@@ -1,5 +1,6 @@
 baseURL = "https://sitradu.org/"
 locale = "es-AR"
+defaultContentLanguage = "es"
 title = "SiTraDU — Conadu Histórica"
 theme = "PaperMod"
 
@@ -33,6 +34,12 @@ theme = "PaperMod"
   url = "/categories/"
   weight = 10
 
+[[menu.main]]
+  identifier = "archive"
+  name = "Archivo Anual"
+  url = "/archivo/"
+  weight = 20
+  
 [params.homeInfoParams]
   Title = "Documentos · Noticias · Enlaces"
   Content = "Para los Trabajadores Docentes Universitarios de Entre Ríos"

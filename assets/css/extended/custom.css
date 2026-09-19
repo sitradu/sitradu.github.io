@@ -207,3 +207,215 @@ html[data-theme="dark"] .home-logo-dark {
 .external-link-single a:hover {
     opacity: 0.85;
 }
+
+/* --------------------------------------------------
+   Galerías de imágenes
+   -------------------------------------------------- */
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 2rem 0;
+}
+
+.gallery-item {
+    margin: 0;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: opacity 0.2s ease;
+}
+
+.gallery-item a:hover img {
+    opacity: 0.85;
+}
+
+.gallery-item figcaption {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: var(--secondary);
+}
+
+@media (max-width: 700px) {
+    .image-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 450px) {
+    .image-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --------------------------------------------------
+   Lightbox
+   -------------------------------------------------- */
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.lightbox[hidden] {
+    display: none;
+}
+
+.lightbox-content {
+    max-width: 95vw;
+    max-height: 90vh;
+    text-align: center;
+}
+
+.lightbox-content img {
+    display: block;
+    max-width: 100%;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    margin: auto;
+    object-fit: contain;
+}
+
+.lightbox-caption {
+    margin-top: 12px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    border: 0;
+    background: none;
+    color: #fff;
+    font-size: 42px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .lightbox {
+        padding: 20px;
+    }
+
+    .lightbox-content img {
+        max-height: 75vh;
+    }
+}
+
+.lightbox-prev,
+.lightbox-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10000;
+
+    border: 0;
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+
+    width: 52px;
+    height: 70px;
+    border-radius: 6px;
+
+    font-size: 48px;
+    line-height: 1;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox-prev {
+    left: 20px;
+}
+
+.lightbox-next {
+    right: 20px;
+}
+
+.lightbox-prev:hover,
+.lightbox-next:hover {
+    background: rgba(0, 0, 0, 0.55);
+}
+
+@media (max-width: 700px) {
+    .lightbox-prev,
+    .lightbox-next {
+        width: 40px;
+        height: 56px;
+        font-size: 38px;
+    }
+
+    .lightbox-prev {
+        left: 5px;
+    }
+
+    .lightbox-next {
+        right: 5px;
+    }
+}
+
+/* --------------------------------------------------
+   Archivo por año
+   -------------------------------------------------- */
+
+.archive-years {
+    margin-top: 2rem;
+}
+
+.archive-year {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+
+    color: inherit;
+    text-decoration: none;
+}
+
+.archive-year:hover .archive-year-title {
+    text-decoration: underline;
+}
+
+.archive-year-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.archive-count {
+    color: var(--secondary);
+    font-size: 0.9rem;
+}
+
+/* --------------------------------------------------
+   Paginación
+   -------------------------------------------------- */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.pagination .prev,
+.pagination .next {
+    float: none;
+    margin: 0;
+}

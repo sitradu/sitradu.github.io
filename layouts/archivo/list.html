@@ -1,0 +1,33 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pagesByYear := $pages.GroupByDate "2006" "desc" }}
+
+<div class="archive-years">
+
+  {{- range $pagesByYear }}
+  {{- $year := .Key }}
+
+  <a class="archive-year" href="{{ printf "/archivo/%s/" $year | relURL }}">
+    <span class="archive-year-title">{{ $year }}</span>
+
+    <span class="archive-count">
+      {{ len .Pages }}
+      {{- if eq (len .Pages) 1 }}
+        publicación
+      {{- else }}
+        publicaciones
+      {{- end }}
+    </span>
+  </a>
+
+  {{- end }}
+
+</div>
+
+{{- end }}
