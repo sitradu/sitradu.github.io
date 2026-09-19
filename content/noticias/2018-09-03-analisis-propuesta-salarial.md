@@ -1,7 +1,8 @@
 ---
 title: Análisis de la propuesta salarial del gobierno nacional
 date: 2018-09-03T10:00:00
-categories: [luchas]
+categories:
+  - Gremiales
 tags: [documentos, salarios, ingresos, análisis]
 author: SiTraDU
 cover:

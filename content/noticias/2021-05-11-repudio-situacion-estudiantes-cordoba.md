@@ -1,7 +1,8 @@
 ---
 title: Repudiamos persecución a estudiantes
 date: 2021-05-11T10:00:00
-categories: [luchas]
+categories: 
+  - Gremiales
 tags: [solidaridad]
 author: SiTraDU
 cover:

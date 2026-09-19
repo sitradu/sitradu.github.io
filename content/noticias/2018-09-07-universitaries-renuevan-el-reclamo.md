@@ -1,7 +1,8 @@
 ---
 title: Universitaries renuevan el reclamo por presupuesto y rechazan la oferta salarial
 date: 2018-09-07T10:00:00
-categories: [luchas]
+categories:
+  - Gremiales
 tags: [análisis, salarios, conadu-histórica]
 author: SiTraDU
 cover:

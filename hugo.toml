@@ -34,8 +34,8 @@ theme = "PaperMod"
   weight = 10
 
 [params.homeInfoParams]
-  Title = "Gremiales · Salarios · Documentos · Enlaces"
-  Content = "Para los trabajadores docentes universitarios de Entre Ríos"
+  Title = "Documentos · Noticias · Enlaces"
+  Content = "Para los Trabajadores Docentes Universitarios de Entre Ríos"
   ImageLight = "/images/sitradu-logo-claro.png"
   ImageDark =  "/images/sitradu-logo-oscuro.png"
   

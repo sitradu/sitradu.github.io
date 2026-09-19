@@ -189,3 +189,21 @@ html[data-theme="dark"] .home-logo-dark {
     background: #e85b61;
     border-radius: 2px;
 }
+
+.external-link-single {
+    margin: 24px 0;
+}
+
+.external-link-single a {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 6px;
+    background: var(--primary);
+    color: var(--theme);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.external-link-single a:hover {
+    opacity: 0.85;
+}

@@ -10,4 +10,4 @@ draft: false
 En esta página podés consultar los sueldos **brutos** actuales (sin
 aumentos desde junio/2026):
 
-[Consultar grilla salarial](/documentos/2026-06-grilla-salarial.pdf)
+[Consultar grilla salarial](/documentos/2026/2026-06-grilla-salarial.pdf)

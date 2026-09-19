@@ -1,8 +1,8 @@
 ---
 title: Asamblea de SITRADU frente al Congreso de CONADUH
 date: 2021-03-16T10:00:00
-categories: [asambleas]
-tags: [asambleas]
+categories: 
+  - Gremiales
 author: SiTraDU
 cover:
   image: https://live.staticflickr.com/65535/51516478050_b7c9e8fca6_o.jpg

@@ -1,7 +1,8 @@
 ---
 title: Acuerdos salariales 2021
 date: 2021-09-20T10:00:00
-categories: [salarios]
+categories:
+  - Gremiales
 tags: [politica, ingresos]
 author: SiTraDU
 cover:

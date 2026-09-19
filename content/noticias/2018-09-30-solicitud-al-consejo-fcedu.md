@@ -1,7 +1,8 @@
 ---
 title: Solicitud al Consejo Directivo FCEdu-UNER
 date: 2018-09-30T10:00:00
-categories: [luchas]
+categories:
+  - Gremiales
 tags: [facultades, documentos, declaraciones]
 author: SiTraDU
 cover:

@@ -1,7 +1,8 @@
 ---
 title: Afiliate a SiTraDU
 date: 2021-09-01T10:00:00
-categories: [gremiales]
+categories: 
+  - Gremiales
 tags: [afiliados]
 author: SiTraDU
 cover:

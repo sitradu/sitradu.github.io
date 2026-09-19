@@ -1,7 +1,8 @@
 ---
 title: Resolución de la Asamblea
 date: 2018-09-06T10:00:00
-categories: [asambleas]
+categories: 
+  - Gremiales
 tags: [declaraciones]
 author: SiTraDU
 cover:

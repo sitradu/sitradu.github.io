@@ -56,16 +56,14 @@
   <div class="home-feed">
 {{- end }}
 
-{{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
 
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
 {{- $class = "first-entry" }}
-{{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
 {{- end }}
 
 {{- if .Params.externalURL }}
@@ -88,10 +86,11 @@
       {{- end }}
     </h2>
   </header>
+
   {{- with .Params.externalURL }}
   {{- with $page.Params.medio }}
   <div class="external-source">
-    Se abrirá el sitio externo: <strong>{{ . }}</strong> ↗
+    En los medios: <strong>{{ . }}</strong> ↗
   </div>
   {{- end }}
 {{- end }}
@@ -105,17 +104,12 @@
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
-{{- with .Params.externalURL }}
-<a class="entry-link"
-   aria-label="Enlace externo: {{ $page.Title | plainify }}"
-   href="{{ . }}"
-   target="_blank"
-   rel="noopener noreferrer"></a>
-{{- else }}
-<a class="entry-link"
+
+
+  <a class="entry-link"
    aria-label="Entrada: {{ $page.Title | plainify }}"
    href="{{ $page.Permalink }}"></a>
-{{- end }}
+  
 </article>
 {{- end }}
 

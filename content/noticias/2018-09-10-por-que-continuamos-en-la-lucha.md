@@ -1,7 +1,8 @@
 ---
 title: ¿Por qué continuamos en la lucha?
 date: 2018-09-10T10:00:00
-categories: [luchas]
+categories:
+  - Documentos
 tags: [análisis, salarios, plan-de-lucha]
 author: SiTraDU
 cover:

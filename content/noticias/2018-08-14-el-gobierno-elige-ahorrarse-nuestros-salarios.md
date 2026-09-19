@@ -1,7 +1,8 @@
 ---
 title: El gobierno elige ahorrarse nuestros salarios para cumplir con el FMI
 date: 2018-08-14T10:00:00
-categories: [luchas]
+categories:
+  - Gremiales
 tags: [movilizaciones, declaraciones]
 author: SiTraDU
 cover:

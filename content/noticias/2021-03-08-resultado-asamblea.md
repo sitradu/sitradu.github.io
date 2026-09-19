@@ -1,7 +1,8 @@
 ---
 title: Resultado de la Asamblea y reunión con el Rector
 date: 2021-03-08T09:00:00
-categories: [asambleas]
+categories:
+  - Gremiales
 tags: [uner]
 author: SiTraDU
 cover:
