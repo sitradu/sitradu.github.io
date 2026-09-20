@@ -10,6 +10,9 @@ cover:
 draft: false
 ---
 
++ [Versión PDF 1](/documentos/2025/2025-09-carta-a-los-universitarios.pdf)
++ [Versión PDF 2](/documentos/2025/2025-09-carta-a-los-universitarios-lectura-mas-comoda.pdf)
+
 ## A plena luz: desfinanciar para destruir
 
 El gobierno le declaró la guerra a la salud, a la educación, a la

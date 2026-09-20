@@ -2,6 +2,7 @@
 title: "Laboratorio del salario de la docencia universitaria"
 date: 2026-09-18
 author: "SiTraDU"
+slug: "labsalarios"
 draft: false
 ---
 

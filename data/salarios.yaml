@@ -1,0 +1,48 @@
+fecha: "Junio 2026"
+
+garantia:
+  simple: 374485.49
+  semiexclusiva: 748970.98
+  exclusiva: 1497941.97
+
+categorias:
+
+  - codigo: "TIT"
+    nombre: "Profesor Titular"
+    basicos:
+      exclusiva: 1948581.14
+      semiexclusiva: 974292.19
+      simple: 487144.76
+
+  - codigo: "ASO"
+    nombre: "Profesor Asociado"
+    basicos:
+      exclusiva: 1733955.09
+      semiexclusiva: 866976.21
+      simple: 433482.17
+
+  - codigo: "ADJ"
+    nombre: "Profesor Adjunto"
+    basicos:
+      exclusiva: 1520087.32
+      semiexclusiva: 760036.95
+      simple: 380014.62
+
+  - codigo: "JTP"
+    nombre: "Jefe de Trabajos Prácticos"
+    basicos:
+      exclusiva: 1305455.41
+      semiexclusiva: 652726.77
+      simple: 326359.56
+
+  - codigo: "AUX1"
+    nombre: "Auxiliar de Primera"
+    basicos:
+      exclusiva: 1090603.69
+      semiexclusiva: 545300.21
+      simple: 272645.26
+
+  - codigo: "AUX2"
+    nombre: "Auxiliar de Segunda"
+    basicos:
+      simple: 218119.70

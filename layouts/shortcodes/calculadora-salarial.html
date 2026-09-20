@@ -1,0 +1,391 @@
+{{ $data := hugo.Data }}
+
+
+<div class="calculadora-salarial">
+  
+  <!-- Categoría -->
+  <div class="calculadora-campo">
+    <label for="categoria">Categoría</label>
+
+    <select id="categoria" name="categoria">
+      {{ range $data.salarios.categorias }}
+        <option
+          value="{{ .codigo }}"
+          data-simple="{{ .basicos.simple }}"
+          data-semiexclusiva="{{ .basicos.semiexclusiva }}"
+          data-exclusiva="{{ .basicos.exclusiva }}">
+          {{ .nombre }}
+        </option>
+      {{ end }}
+    </select>
+  </div>
+
+
+  <!-- Dedicación -->
+  <div class="calculadora-campo">
+    <label for="dedicacion">Dedicación</label>
+
+    <select id="dedicacion" name="dedicacion">
+      <option
+        value="simple"
+        data-garantia="{{ $data.salarios.garantia.simple }}">
+        Simple
+      </option>
+
+      <option
+        value="semiexclusiva"
+        data-garantia="{{ $data.salarios.garantia.semiexclusiva }}">
+        Semiexclusiva
+      </option>
+
+      <option
+        value="exclusiva"
+        data-garantia="{{ $data.salarios.garantia.exclusiva }}">
+        Exclusiva
+      </option>
+    </select>
+  </div>
+
+
+  <!-- Antigüedad -->
+  <div class="calculadora-campo">
+    <label for="antiguedad">Antigüedad</label>
+
+    <select id="antiguedad" name="antiguedad">
+      <option value="0.20">0 a 4 años</option>
+      <option value="0.30">5 a 6 años</option>
+      <option value="0.40">7 a 9 años</option>
+      <option value="0.50">10 a 11 años</option>
+      <option value="0.60">12 a 14 años</option>
+      <option value="0.70">15 a 16 años</option>
+      <option value="0.80">17 a 19 años</option>
+      <option value="1.00">20 a 21 años</option>
+      <option value="1.10">22 a 23 años</option>
+      <option value="1.20">24 años o más</option>
+    </select>
+  </div>
+
+
+  <!-- Título de posgrado -->
+  <div class="calculadora-campo">
+    <label for="titulo">Título de posgrado</label>
+
+    <select id="titulo" name="titulo">
+      <option value="0">Sin título de posgrado</option>
+      <option value="0.05">Especialización (5%)</option>
+      <option value="0.08">Maestría (8%)</option>
+      <option value="0.18">Doctorado (18%)</option>
+    </select>
+  </div>
+
+
+  <!-- Resultado -->
+  <div class="calculadora-resultado">
+
+    <h3>Detalle del salario</h3>
+
+    <div>
+      <span>Salario básico</span>
+      <span id="salario-basico"></span>
+    </div>
+
+    <div>
+      <span>Antigüedad</span>
+      <span id="adicional-antiguedad"></span>
+    </div>
+
+    <div>
+      <span>Garantía salarial</span>
+      <span id="adicional-garantia"></span>
+    </div>
+
+    <div>
+      <span>Título de posgrado</span>
+      <span id="adicional-titulo"></span>
+    </div>
+
+    <hr>
+
+    <div class="salario-total">
+      <strong>Salario bruto</strong>
+      <strong id="salario-bruto"></strong>
+    </div>
+
+
+    <h3>Descuentos</h3>
+
+    <div>
+      <span>Jubilación (11%)</span>
+      <span id="descuento-jubilacion"></span>
+    </div>
+
+    <div>
+      <span>Ley 26.508 s/OS (2%)</span>
+      <span id="descuento-ley26508"></span>
+    </div>
+
+    <div>
+      <span>OSUNER (3%)</span>
+      <span id="descuento-osuner"></span>
+    </div>
+
+    <div>
+      <span>Ley 19.032 (3%)</span>
+      <span id="descuento-ley19032"></span>
+    </div>
+
+    <div>
+      <span>Caja compen. (3%)</span>
+      <span id="descuento-caja"></span>
+    </div>
+
+    <hr>
+
+    <div>
+      <strong>Total descuentos</strong>
+      <strong id="total-descuentos"></strong>
+    </div>
+
+    <hr>
+
+    <div class="salario-neto">
+      <strong>Salario neto estimado (de bolsillo)</strong>
+      <strong id="salario-neto"></strong>
+    </div>
+
+  </div>
+
+</div>
+
+
+<script>
+  const categoria = document.getElementById("categoria");
+  const dedicacion = document.getElementById("dedicacion");
+  const antiguedad = document.getElementById("antiguedad");
+  const titulo = document.getElementById("titulo");
+
+  const resultadoBasico =
+    document.getElementById("salario-basico");
+
+  const resultadoAntiguedad =
+    document.getElementById("adicional-antiguedad");
+
+  const resultadoGarantia =
+    document.getElementById("adicional-garantia");
+
+  const resultadoTitulo =
+    document.getElementById("adicional-titulo");
+
+  const resultadoBruto =
+    document.getElementById("salario-bruto");
+
+  const resultadoJubilacion =
+    document.getElementById("descuento-jubilacion");
+
+  const resultadoLey19032 =
+	document.getElementById("descuento-ley19032");
+
+  const resultadoCaja =
+	document.getElementById("descuento-caja");
+
+  const resultadoOsuner =
+	document.getElementById("descuento-osuner");
+
+  const resultadoLey26508 =
+	document.getElementById("descuento-ley26508");
+
+  const resultadoTotalDescuentos =
+	document.getElementById("total-descuentos");
+  
+  const resultadoNeto =
+    document.getElementById("salario-neto");
+
+
+  function formatoPesos(valor) {
+    return valor.toLocaleString("es-AR", {
+      style: "currency",
+      currency: "ARS"
+    });
+  }
+
+
+  function calcularSalario() {
+
+    /*
+     * DATOS SELECCIONADOS
+     */
+
+    const opcionCategoria =
+      categoria.options[categoria.selectedIndex];
+
+    const tipoDedicacion =
+      dedicacion.value;
+
+    const basicoCargo =
+      Number(opcionCategoria.dataset[tipoDedicacion]);
+
+    const porcentajeAntiguedad =
+      Number(antiguedad.value);
+
+    const porcentajeTitulo =
+      Number(titulo.value);
+
+
+    /*
+     * ANTIGÜEDAD
+     */
+
+    const adicionalAntiguedad =
+      basicoCargo * porcentajeAntiguedad;
+
+
+    /*
+     * GARANTÍA SALARIAL
+     *
+     * Se compara el básico más la antigüedad
+     * con el piso correspondiente a la dedicación.
+     */
+
+    const basicoMasAntiguedad =
+      basicoCargo + adicionalAntiguedad;
+
+    const opcionDedicacion =
+      dedicacion.options[dedicacion.selectedIndex];
+
+    const garantia =
+      Number(opcionDedicacion.dataset.garantia);
+
+    const adicionalGarantia =
+      Math.max(
+        0,
+        garantia - basicoMasAntiguedad
+      );
+
+
+    /*
+     * TÍTULO DE POSGRADO
+     *
+     * Se calcula sobre el salario básico.
+     */
+
+    const adicionalTitulo =
+      basicoCargo * porcentajeTitulo;
+
+
+    /*
+     * SALARIO BRUTO
+     */
+
+    const salarioBruto =
+      basicoCargo +
+      adicionalAntiguedad +
+      adicionalGarantia +
+      adicionalTitulo;
+
+
+  /*
+   * DESCUENTOS
+   */
+
+      const descuentoJubilacion =
+	    salarioBruto * 0.11;
+
+      const descuentoLey19032 =
+	    salarioBruto * 0.03;
+
+      const descuentoCaja =
+	    salarioBruto * 0.03;
+
+      const descuentoOsuner =
+	    salarioBruto * 0.03;
+
+      const descuentoLey26508 =
+	    salarioBruto * 0.02;
+
+      const totalDescuentos =
+	    descuentoJubilacion +
+	    descuentoLey19032 +
+	    descuentoCaja +
+	    descuentoOsuner +
+	    descuentoLey26508;
+
+      const salarioNeto =
+	    salarioBruto - totalDescuentos;
+
+      
+      /*
+       * MOSTRAR RESULTADOS
+       */
+
+      resultadoBasico.textContent =
+	  formatoPesos(basicoCargo);
+
+      resultadoAntiguedad.textContent =
+	  formatoPesos(adicionalAntiguedad);
+
+      resultadoGarantia.textContent =
+	  formatoPesos(adicionalGarantia);
+
+      resultadoTitulo.textContent =
+	  formatoPesos(adicionalTitulo);
+
+      resultadoBruto.textContent =
+	  formatoPesos(salarioBruto);
+
+      resultadoJubilacion.textContent =
+	  "- " + formatoPesos(descuentoJubilacion);
+
+      resultadoLey19032.textContent =
+	  "- " + formatoPesos(descuentoLey19032);
+
+      resultadoCaja.textContent =
+	  "- " + formatoPesos(descuentoCaja);
+
+      resultadoOsuner.textContent =
+	  "- " + formatoPesos(descuentoOsuner);
+
+      resultadoLey26508.textContent =
+	  "- " + formatoPesos(descuentoLey26508);
+
+      resultadoTotalDescuentos.textContent =
+	  "- " + formatoPesos(totalDescuentos);
+
+      resultadoNeto.textContent =
+	  formatoPesos(salarioNeto);
+  }
+
+
+  /*
+   * RECALCULAR CUANDO CAMBIA UNA OPCIÓN
+   */
+
+  categoria.addEventListener(
+    "change",
+    calcularSalario
+  );
+
+  dedicacion.addEventListener(
+    "change",
+    calcularSalario
+  );
+
+  antiguedad.addEventListener(
+    "change",
+    calcularSalario
+  );
+
+  titulo.addEventListener(
+    "change",
+    calcularSalario
+  );
+
+
+  /*
+   * CÁLCULO INICIAL
+   */
+
+  calcularSalario();
+
+</script>
+
+
