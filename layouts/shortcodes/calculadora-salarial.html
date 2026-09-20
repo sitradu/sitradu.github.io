@@ -125,9 +125,10 @@
     </div>
 
     <div>
-      <span>OSUNER (3%)</span>
+      <span>OSUNER (<span id="porcentaje-osuner"></span>%)</span>
       <span id="descuento-osuner"></span>
     </div>
+
 
     <div>
       <span>Ley 19.032 (3%)</span>
@@ -191,6 +192,9 @@
   const resultadoOsuner =
 	document.getElementById("descuento-osuner");
 
+  const resultadoPorcentajeOsuner =
+	document.getElementById("porcentaje-osuner");
+  
   const resultadoLey26508 =
 	document.getElementById("descuento-ley26508");
 
@@ -296,8 +300,18 @@
       const descuentoCaja =
 	    salarioBruto * 0.03;
 
+      let porcentajeOsuner;
+
+      if (tipoDedicacion === "exclusiva") {
+	  porcentajeOsuner = 0.03;
+      } else if (tipoDedicacion === "semiexclusiva") {
+	  porcentajeOsuner = 0.06;
+      } else {
+	  porcentajeOsuner = 0.12;
+      }
+
       const descuentoOsuner =
-	    salarioBruto * 0.03;
+	    salarioBruto * porcentajeOsuner;
 
       const descuentoLey26508 =
 	    salarioBruto * 0.02;
@@ -341,6 +355,9 @@
       resultadoCaja.textContent =
 	  "- " + formatoPesos(descuentoCaja);
 
+      resultadoPorcentajeOsuner.textContent =
+	  porcentajeOsuner * 100;
+      
       resultadoOsuner.textContent =
 	  "- " + formatoPesos(descuentoOsuner);
 

@@ -33,13 +33,13 @@ brutos](https://docs.google.com/spreadsheets/d/1LjtmeIINWBMp4EOAvej20MSZbkD27NaH
   financiar el régimen previsional especial de los docentes
   universitarios nacionales.
 
-* **OSUNER**: **revisar, depende de la dedicación**. Aporte del 3%
-  para cargos exclusivos.
+* **OSUNER**: el aporte depende de la dedicación es 3% para cargos
+  exclusivos, 6% para semiexclusivos y 12% para simples.
 
 * **Ley 19032**: aporte del 3% destinado al PAMI (sistema de prestaciones
   médicas y sociales para los jubilados y pensionados del país).
 
-* **Caja compen.**: aporte del 3%. **¿Aporte al ICUNER?**
+* **Caja compen.**: aporte del 3% para el ICUNER.
 
 ## Descuentos voluntarios:
 
