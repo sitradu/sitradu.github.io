@@ -7,7 +7,8 @@ externalURL: "https://www.elonce.com/politica/paro-universitario-en-entre-rios-d
 categories:
   - "En los medios"
 cover:
-  image: "https://live.staticflickr.com/65535/55534727712_11011c394f_b.jpg"
+  image: "/images/sitradu-en-los-medios-2.png"
+  hiddenInSingle: true
 draft: false
 ---
 
